@@ -98,7 +98,7 @@ git clone https://github.com/phucthuan1st/EarleyAlgorithms.git
 - B2: Vào thư mục làm việc
 
 ```shell
-cd EarleyAlgorithms
+cd EarleyAlgorithms/src
 ```
 
 - B3: Tiến hành chạy với cú pháp:
