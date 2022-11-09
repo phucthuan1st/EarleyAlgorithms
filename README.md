@@ -70,7 +70,7 @@ ví dụ:
 ### Thiết lập văn phạm (Grammar):
 
 - Mỗi luật chứa 1 gốc sinh và các tập sản phẩm, theo như lưu ý ở trên
-- Luư trữ trong các file json, mặc định là sample-grammar.json
+- Lưu trữ trong các file json, mặc định là sample-grammar.json
 
 ### Thiết lập bộ test:
 
@@ -138,71 +138,7 @@ S11 NP3 -> a NP3 - operation: predictor
 S12 NP3 -> n - operation: predictor
 S13 NP3 -> n PP - operation: predictor
 
-Table[3]
-S14 n -> man - operation: scanner
-S15 NP3 -> n - operation: completer
-S16 NP3 -> n PP - operation: completer
-S17 NP3 -> a NP3 - operation: completer
-S18 PP -> p NP2 - operation: predictor
-S19 NP -> d NP3 - operation: completer
-S20 S -> NP VP - operation: completer
-S21 S -> NP VP PP - operation: completer
-S22 VP -> v - operation: predictor
-
-Table[4]
-S23 v -> sit - operation: scanner
-S24 VP -> v - operation: completer
-S25 S -> NP VP - operation: completer
-S26 S -> NP VP PP - operation: completer
-S27 PP -> p NP2 - operation: predictor
-
-Table[5]
-S28 p -> on - operation: scanner
-S29 PP -> p NP2 - operation: completer
-S30 NP2 -> d NP3 - operation: predictor
-
-Table[6]
-S31 d -> the - operation: scanner
-S32 NP2 -> d NP3 - operation: completer
-S33 NP3 -> a NP3 - operation: predictor
-S34 NP3 -> n - operation: predictor
-S35 NP3 -> n PP - operation: predictor
-
-Table[7]
-S36 a -> red - operation: scanner
-S37 n -> red - operation: scanner
-S38 NP3 -> a NP3 - operation: completer
-S39 NP3 -> n - operation: completer
-S40 NP3 -> n PP - operation: completer
-S41 NP3 -> a NP3 - operation: predictor
-S42 NP3 -> n - operation: predictor
-S43 NP3 -> n PP - operation: predictor
-S44 NP2 -> d NP3 - operation: completer
-S45 PP -> p NP2 - operation: predictor
-S47 PP -> p NP2 - operation: completer
-S48 S -> NP VP PP - operation: completer
-
-Table[8]
-S46 n -> chair - operation: scanner
-S49 NP3 -> n - operation: completer
-S50 NP3 -> n PP - operation: completer
-S51 NP3 -> a NP3 - operation: completer
-S52 PP -> p NP2 - operation: predictor
-S53 NP2 -> d NP3 - operation: completer
-S55 PP -> p NP2 - operation: completer
-S56 S -> NP VP PP - operation: completer
-
-Table[9]
-S54 p -> in - operation: scanner
-S57 PP -> p NP2 - operation: completer
-S58 NP2 -> d NP3 - operation: predictor
-
-Table[10]
-S59 d -> the - operation: scanner
-S60 NP2 -> d NP3 - operation: completer
-S61 NP3 -> a NP3 - operation: predictor
-S62 NP3 -> n - operation: predictor
-S63 NP3 -> n PP - operation: predictor
+...
 
 Table[11]
 S64 a -> new - operation: scanner
