@@ -193,5 +193,5 @@ Invalid state with provided grammar
 
 ### Requirements
 
-python==3.9.0
-nltk==3.6.3
+- python==3.9.0
+- nltk==3.6.3
