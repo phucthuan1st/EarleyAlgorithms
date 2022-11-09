@@ -84,4 +84,7 @@ Ví dụ:
 
 ### Tiến hành chạy:
 
-- B1: Tải thư mục về từ github:
+- Nếu chưa tải, clone repository về từ github: [Earley Algorithms](https://github.com/phucthuan1st/EarleyAlgorithms.git)
+
+- Sau khi đã clone, lần lượt chạy các lệnh sau trên terminal:
+  - B1:
