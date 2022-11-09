@@ -254,3 +254,8 @@ Trường hợp dữ liệu đưa vào không đúng với văn phạm đã đ�
 ```php
 Invalid state with provided grammar
 ```
+
+### Requirements
+
+python==3.9.0
+nltk==3.6.3
