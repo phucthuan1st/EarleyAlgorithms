@@ -15,7 +15,6 @@ def main():
         document_filename = args.document_file
         grammar_filename = args.grammar_file_json
         
-        print(str(grammar_filename))
         with open(grammar_filename) as grammar_file:
             grammar = json.load(grammar_file)
             
